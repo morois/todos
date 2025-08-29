@@ -26,12 +26,18 @@ Todo-приложение на **React + TypeScript** с использован�
 - Jest
 - CSS/SCSS для стилей
 
+---
+
 ## Установка
 
 - git clone git@github.com:morois/todos.git
 - cd todos
 - npm run start
 
+---
+
 ## Запуск тестов
 
 - npm run test
+
+---
