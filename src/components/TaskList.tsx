@@ -25,7 +25,9 @@ const TaskList: React.FC = () => {
     <div className="tasks-wrapper">
       <TaskFilter filter={filter} setFilter={setFilter} clearDone={clearDone} />
 
-      <p className="active-count">Active tasks: {activeCount}</p>
+      <p className="active-count">
+        <span>Active</span> tasks: {activeCount}
+      </p>
 
       {filteredTasks.length === 0 ? (
         <p className="empty-message">{getEmptyMessage()}</p>
