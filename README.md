@@ -24,7 +24,7 @@ Todo-приложение на **React + TypeScript** с использован�
 - Vite
 - React Testing Library
 - Jest
-- CSS/SCSS для стилей
+- CSS для стилей
 
 ---
 
@@ -32,6 +32,7 @@ Todo-приложение на **React + TypeScript** с использован�
 
 - git clone git@github.com:morois/todos.git
 - cd todos
+- npm i
 - npm run start
 
 ---
